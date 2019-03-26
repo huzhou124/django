@@ -98,9 +98,9 @@ mkvirtualenv --python==C:\Python36\python.exe hz\_nev
 
 ### python-django版本：
 
-django版本\|python
+django版本 \| python
 
---\|--\|--
+---\|---
 
 1.8\|2.7,3.2,3.3,3.4,3.5
 
