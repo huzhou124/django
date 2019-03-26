@@ -1,6 +1,4 @@
-
-
-#  django的学习
+# django的学习
 
 ## 1.安装virtualenv：
 
@@ -14,9 +12,9 @@ pip3 install virtualenv
 
 \`\`\`
 
------------------------------------------------
+---
 
-##  2.创建虚拟环境：
+## 2.创建虚拟环境：
 
 创建虚拟环境非常简单，通过一下命令就可以创建了：
 
@@ -28,11 +26,7 @@ virtualenv \[虚拟环境的名字\]
 
 如果你当前的\`Python3/Scripts\`的查找路径再\`Python2/Scripts\`的面前，那么将会使用\`Python3\`作为这个虚拟环境。如果你当前的\`Python2/Scripts\`的查找路径再\`Python3/Scripts\`的面前，那么将会使用\`Python2\`作为这个虚拟环境。
 
-
-
----------------------------
-
-
+---
 
 ## 3.进入虚拟环境：
 
@@ -46,23 +40,15 @@ virtualenv \[虚拟环境的名字\]
 
 \`\`\`
 
-----------------------
+---
 
-
-
-##  4.退出虚拟环境：  
-
-
+## 4.退出虚拟环境：
 
 推出虚拟环境很简单，通过一个命令就可以完成：\`deactivate\`
 
+---
 
-
----------
-
-
-
-##  5.virtualenvwarpper的安装和基本使用
+## 5.virtualenvwarpper的安装和基本使用
 
 #### 安装：
 
@@ -106,17 +92,15 @@ mkvirtualenv --python==C:\Python36\python.exe hz\_nev
 
 \`\`\`
 
-出现问题\(报编码问题时\)时：  
+出现问题\(报编码问题时\)时：
 
 \`mkvirtualenv django\_env --no-setuptools\`
-
-
 
 ### python-django版本：
 
 django版本\|python
 
---\|--
+--\|--\|--
 
 1.8\|2.7,3.2,3.3,3.4,3.5
 
@@ -134,17 +118,12 @@ django版本\|python
 
 ## mysql下载地址：
 
-windos版本：  
+windos版本：
 
-\`\`\`
-
+```
 https://dev.mysql.com/downloads/windows/installer/5.7.html
-
 http://ftp.ntu.edu.tw/MySQL/Downloads/MySQLInstaller/
-
-\`\`\`
-
-
+```
 
 ### web服务器和应用服务器以及web应用框架：
 
@@ -154,15 +133,11 @@ http://ftp.ntu.edu.tw/MySQL/Downloads/MySQLInstaller/
 
 **web应用框架**：一般使用某种语言，封装了常用的web功能的框架就是web应用框架，flask、django以及java中的ssh（Structs2+Spring3+Hibernate3）框架都是web应用框架。
 
-
-
 ### Django和mvc
 
 Django是一个遵循mvc设计的框架，mvc是model、view、controller的三个单词的简写。分别代表模型、视图、控制器。一下图片说明这三者之间的关系：
 
 !\[image\]\(FB586B2F3EBF4570AE4347E8B2B6C221\)
-
-
 
 ### Django的学习网址：
 
